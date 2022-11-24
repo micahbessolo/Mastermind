@@ -1,0 +1,14 @@
+body {
+    justify-content: center;
+}
+h1 {
+    position: absolute;
+    margin: auto;
+}
+
+.a1 {
+    background-color: gray;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
