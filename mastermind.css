@@ -5,13 +5,21 @@ body {
 }
 
 h1 {
-    /* position: absolute;
-    left: 40%;
-    justify-content: center; */
     justify-content: center;
     margin: auto;
     position: relative;
     text-align: center;
+}
+
+.container {
+    position: relative;
+    /* left: 40%; */
+    max-width: 200px;
+    justify-content: center;
+}
+
+.row {
+    justify-content: center;
 }
 
 #guesses {
@@ -29,14 +37,14 @@ h1 {
 }
 
 #score td {
-    background-color: red;
+    background-color: lightgray;
     border-radius: 50%;
     height: 25px;
     width: 25px;
 }
 
 .smallCircle {
-    background-color: red;
+    /* background-color: red; */
     border-radius: 50%;
     height: 20px;
     width: 20px;
