@@ -16,8 +16,8 @@ function fourRandomColors() {
     }
     return correctColors;
 }
-console.log(fourRandomColors())
-;
+console.log(fourRandomColors());
+
 // create the classes
 function createClasses() {
     for (let i = 0; i < gridID.length; i++) {
